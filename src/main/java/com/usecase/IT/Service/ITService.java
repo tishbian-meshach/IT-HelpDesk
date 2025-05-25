@@ -15,7 +15,7 @@ public class ITService {
         return itRepository.save(it);
     }
 
-    public List<IT> getAllBills() {
+    public List<IT> getAllTickets() {
         return itRepository.findAll();
     }
 

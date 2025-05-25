@@ -21,7 +21,7 @@ public class ITController {
 
     @GetMapping
     public List<IT> getAllTickets(){
-        return itService.getAllBills();
+        return itService.getAllTickets();
     }
 
     @GetMapping("/{id}")
